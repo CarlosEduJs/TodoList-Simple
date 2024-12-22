@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body.LightTheme .hero {
+  background: url("./assets/bg-desktop-light.jpg");
+  background-size: cover;
+}
+
+body.DarkTheme .hero {
+  background: url("./assets/bg-desktop-dark.jpg");
+  background-size: cover;
+}
