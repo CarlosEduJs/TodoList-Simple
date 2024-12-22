@@ -95,7 +95,7 @@ const ListTodo = () => {
                             )}
                           </div>
                           <h1
-                            className={`text-sm ${
+                            className={`text-sm truncate max-w-[220px] ${
                               currentTheme.titleColorTodo
                             } ${task.completed ? "line-through" : ""}`}
                           >
